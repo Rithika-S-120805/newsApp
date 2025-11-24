@@ -1,0 +1,34 @@
+
+
+.news-card-hover {
+    /* 1. Add smooth transition for a professional look */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+}
+
+.news-card-hover:hover {
+    /* 2. Lift the card (Scale up slightly) */
+    transform: translateY(-5px); 
+    
+    /* 3. Add a shadow to make it pop */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(0, 0, 0, 0.4); 
+}
+
+/* Ensure the cursor is a pointer for all interactive links */
+.nav-link-hover {
+    cursor: pointer;
+    /* Optional: Add transition for smooth hover effects */
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+/* Hover Effect: Change the color and add a subtle background */
+.nav-link-hover:hover {
+    
+    color: white !important; 
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button-hover:hover{
+    background-color: red;
+    border-radius: 4px;
+}
